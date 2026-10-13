@@ -1,11 +1,12 @@
 <div align="center">
-  <img src="./assetsmd/banner.gif/" width="300"></img>
   <h1 align="center">Yet A Simple Lyrics App 🎵</h1>
+  <img src="./assetsmd/banner.gif/" width="300"></img>
+  <h3> **YASLA** is a native Android lyrics companion focused on synchronized lyrics,
+customization, home-screen widgets, floating lyrics and immersive music visuals.</h3>  
   <img src="./assetsmd/test.gif/"></img>
 </div>
 
-**YASLA** is a native Android lyrics companion focused on synchronized lyrics,
-customization, home-screen widgets, floating lyrics and immersive music visuals.
+
 
 ![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Kotlin 2.2.10](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?logo=kotlin&logoColor=white)
