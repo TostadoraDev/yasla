@@ -13,15 +13,11 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 ---
 
   <img src="./assetsmd/test.gif/"></img>
+
+---
+
+  ⚠️ YASLA follows playback from compatible music apps. It does not stream or host music.
 </div>
-
-
-
-YASLA follows playback from compatible music apps. It does not stream or host music.
-Repository: [TostadoraDev/yasla](https://github.com/TostadoraDev/yasla).
-The maintainer selected **GPL-3.0** for YASLA's original code; see [LICENSE](LICENSE).
-AMLL-derived motion has a separate AGPL provenance concern documented in
-[License status](docs/LICENSE_STATUS.md). The GPL selection does not remove upstream obligations.
 
 ## A closer look
 
