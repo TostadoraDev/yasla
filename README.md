@@ -21,8 +21,36 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 
 ## A closer look
 
-These are actual debug-build captures using synthetic lyrics and placeholder artwork,
-not fabricated product mockups or screenshots of a released version.
+<table>
+  <tr>
+    <th>
+      AMLL
+    </th>
+    <th>
+      TTML
+    </th>
+    <th>
+      Widget
+    </th>
+    <th>
+      Overlay
+    </th>
+  </tr>
+  <tr>
+    <th>
+      Example
+    </th>
+    <th>
+      Example
+    </th>
+    <th>
+      Example
+    </th>
+    <th>
+      Example
+    </th>
+  </tr>
+</table>
 
 <img src="docs/screenshots/now-playing-demo.png" width="280" alt="Now Playing with synthetic lyrics, a thin glass timeline and flat navigation">
 <img src="docs/screenshots/widget-editor-dark.png" width="280" alt="Widget configuration with a live example and grouped options in dark theme">
