@@ -20,7 +20,7 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 
 <div align="center">
   
-<h1>📱 How THIS looks on YOUR phone</h1>
+<h3>📱 How THIS looks on YOUR phone</h3>
 <p>Here's a sneak peek at how it looks on your phone! :)</p>
 <table>
   <tr>
