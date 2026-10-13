@@ -47,9 +47,6 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 
 </div>
 
-[Screenshot and motion capture guidance](docs/screenshots/README.md).
-No demonstration GIF is published yet.
-
 ## What is available
 
 | Area | Status | Current behavior |
