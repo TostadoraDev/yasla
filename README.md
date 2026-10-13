@@ -13,10 +13,7 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 ---
 
   <img src="./assetsmd/test.gif/"></img>
-
----
-
-  ⚠️ YASLA follows playback from compatible music apps. It does not stream or host music.
+  
 </div>
 
 ---
@@ -173,6 +170,8 @@ YASLA is independent and is **not an official Spotify product**.
 Today, Spotify can be a playback/metadata source through Android MediaSession, like
 other compatible players. This does not mean the Spotify Web API or App Remote SDK
 has been integrated.
+
+⚠️ YASLA follows playback from compatible music apps. It does not stream or host music.
 
 Those integrations are **planned**. Users will configure their own Spotify Developer
 application Client ID and redirect URI when that feature exists. A mobile Web API
