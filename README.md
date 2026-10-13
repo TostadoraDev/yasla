@@ -4,6 +4,9 @@
   
   **YASLA** is a native Android lyrics companion focused on synchronized lyrics,
 customization, home-screen widgets, floating lyrics and immersive music visuals.
+
+---
+
   <img src="./assetsmd/test.gif/"></img>
 </div>
 
