@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assetsmd/banner.gif/"></img>
+  <img src="./assetsmd/banner.gif/ width="20"></img>
   <h1 align="center">Yet A Simple Lyrics App 🎵</h1>
   <img src="./assetsmd/test.gif/"></img>
 </div>
