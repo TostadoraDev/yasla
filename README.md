@@ -19,7 +19,9 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
   ⚠️ YASLA follows playback from compatible music apps. It does not stream or host music.
 </div>
 
-## A closer look
+---
+
+## 📱 How THIS looks on YOUR phone
 
 <div align="center">
 <table>
