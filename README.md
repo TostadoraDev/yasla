@@ -6,16 +6,16 @@
   **YASLA** is a native Android lyrics companion focused on synchronized lyrics,
 customization, home-screen widgets, floating lyrics and immersive music visuals.
 
+![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
+![Kotlin 2.2.10](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
+
 ---
 
   <img src="./assetsmd/test.gif/"></img>
 </div>
 
 
-
-![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
-![Kotlin 2.2.10](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
 
 YASLA follows playback from compatible music apps. It does not stream or host music.
 Repository: [TostadoraDev/yasla](https://github.com/TostadoraDev/yasla).
