@@ -41,7 +41,7 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
       Example
     </th>
     <th>
-      Example
+      <img src="./assetsmd/previewttml.gif">
     </th>
     <th>
       Example
