@@ -18,9 +18,9 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 
 ---
 
+<div align="center">
 ## 📱 How THIS looks on YOUR phone
 
-<div align="center">
 <table>
   <tr>
     <th>
