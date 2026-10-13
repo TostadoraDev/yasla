@@ -1,8 +1,8 @@
 <div align="center">
   <h1 align="center">Yet A Simple Lyrics App 🎵</h1>
   <img src="./assetsmd/banner.gif/" width="300"></img>
-  <h3> **YASLA** is a native Android lyrics companion focused on synchronized lyrics,
-customization, home-screen widgets, floating lyrics and immersive music visuals.</h3>  
+  **YASLA** is a native Android lyrics companion focused on synchronized lyrics,
+customization, home-screen widgets, floating lyrics and immersive music visuals.
   <img src="./assetsmd/test.gif/"></img>
 </div>
 
