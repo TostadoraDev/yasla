@@ -47,11 +47,6 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 
 </div>
 
-</div>
-
-<img src="docs/screenshots/now-playing-demo.png" width="280" alt="Now Playing with synthetic lyrics, a thin glass timeline and flat navigation">
-<img src="docs/screenshots/widget-editor-dark.png" width="280" alt="Widget configuration with a live example and grouped options in dark theme">
-
 [Screenshot and motion capture guidance](docs/screenshots/README.md).
 No demonstration GIF is published yet.
 
