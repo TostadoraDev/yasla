@@ -38,10 +38,10 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
   </tr>
   <tr>
     <th>
-      <img src="./assetsmd/previewamll.gif" width="50%">
+      <img src="./assetsmd/previewamll.gif" width="50%"></img>
     </th>
     <th>
-      <img src="./assetsmd/previewttml.gif" width="50%">
+      <img src="./assetsmd/previewttml.gif" width="50%"></img>
     </th>
     <th>
       Example
