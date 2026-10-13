@@ -35,8 +35,12 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
     <td align="center">
       <img src="./assetsmd/previewttml.gif" width="220">
     </td>
-    <td align="center">Example</td>
-    <td align="center">Example</td>
+    <td align="center">
+      <img src="./assetsmd/previewwidget.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="./assetsmd/previewoverlay.gif" width="220">
+    </td>
   </tr>
 </table>
 
