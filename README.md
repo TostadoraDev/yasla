@@ -19,38 +19,29 @@ customization, home-screen widgets, floating lyrics and immersive music visuals.
 ---
 
 <div align="center">
-## 📱 How THIS looks on YOUR phone
+<h>📱 How THIS looks on YOUR phone</h>
 
 <table>
   <tr>
-    <th>
-      AMLL
-    </th>
-    <th>
-      TTML
-    </th>
-    <th>
-      Widget
-    </th>
-    <th>
-      Overlay
-    </th>
+    <th>AMLL</th>
+    <th>TTML</th>
+    <th>Widget</th>
+    <th>Overlay</th>
   </tr>
   <tr>
-    <th>
-      <img src="./assetsmd/previewamll.gif" width="50%"></img>
-    </th>
-    <th>
-      <img src="./assetsmd/previewttml.gif" width="50%"></img>
-    </th>
-    <th>
-      Example
-    </th>
-    <th>
-      Example
-    </th>
+    <td align="center">
+      <img src="./assetsmd/previewamll.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="./assetsmd/previewttml.gif" width="220">
+    </td>
+    <td align="center">Example</td>
+    <td align="center">Example</td>
   </tr>
 </table>
+
+</div>
+
 </div>
 
 <img src="docs/screenshots/now-playing-demo.png" width="280" alt="Now Playing with synthetic lyrics, a thin glass timeline and flat navigation">
