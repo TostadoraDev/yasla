@@ -1,0 +1,60 @@
+<resources>
+    <string name="system_notifications_disabled">Notifications are still disabled.</string>
+    <string name="system_file_picker_unavailable">No file picker is available.</string>
+    <string name="system_export_lrc">Export LRC</string>
+    <string name="system_export_ttml">Export TTML</string>
+    <string name="system_overlay_service_subtype" translatable="false">Shows lyrics over other apps while music is playing.</string>
+
+    <string name="system_imported_lyrics">Imported lyrics</string>
+    <string name="system_imported_offline">Imported · offline</string>
+    <string name="system_saved_provider">Saved · %1$s</string>
+    <string name="system_track_unidentified">We could not identify this song.</string>
+    <string name="system_lyrics_rate_limited">The lyrics service is temporarily rate limited.</string>
+    <string name="system_lyrics_unavailable">The lyrics service is temporarily unavailable.</string>
+    <string name="system_lyrics_failed">Lyrics could not be loaded.</string>
+    <string name="system_lyrics_timeout">The lyrics search took too long.</string>
+    <string name="system_media_permission_required">Allow notification access</string>
+    <string name="system_media_connecting">Connecting to Android</string>
+    <string name="system_media_no_session">Open your music player</string>
+    <string name="system_import_limit">Select up to 20 files per import.</string>
+    <string name="system_default_import_filename">lyrics.ttml</string>
+    <string name="system_file_open_failed">The file could not be opened.</string>
+    <string name="system_import_failed">Could not import: %1$s</string>
+    <string name="system_invalid_file">invalid file</string>
+    <string name="system_saved_for_track">Lyrics saved for %1$s</string>
+    <plurals name="system_saved_to_library">
+        <item quantity="one">%1$d lyric file saved to the library.</item>
+        <item quantity="other">%1$d lyric files saved to the library.</item>
+    </plurals>
+    <string name="system_supported_file_required">Select a TTML, XML, LRC, or TXT file.</string>
+    <string name="system_import_saved_offline">Lyrics imported and saved offline</string>
+    <string name="system_import_lyrics_failed">The lyrics could not be imported</string>
+    <string name="system_lyrics_saved">Lyrics saved</string>
+    <string name="system_save_failed">Could not save</string>
+    <string name="system_searching">Searching…</string>
+    <string name="system_open_lyrics_failed">The lyrics could not be opened</string>
+
+    <string name="system_notification_synced_lyrics">Synced lyrics</string>
+    <string name="system_notification_waiting_line">Waiting for the next line</string>
+    <string name="system_action_previous">Previous</string>
+    <string name="system_action_pause">Pause</string>
+    <string name="system_action_play">Play</string>
+    <string name="system_action_next">Next</string>
+    <string name="system_action_overlay">Overlay</string>
+    <string name="system_action_lock">Lock</string>
+    <string name="system_floating_lyrics_active">Floating lyrics active</string>
+    <string name="system_tap_to_return">Tap to return to YASLA</string>
+    <string name="system_channel_current_lyrics">Current lyrics</string>
+    <string name="system_channel_current_lyrics_description">Shows the current line, the next line, and supported player controls.</string>
+    <string name="system_channel_floating_lyrics">Floating lyrics</string>
+    <string name="system_channel_floating_lyrics_description">Keeps the floating lyrics service visible.</string>
+
+    <string name="system_overlay_android_version">Floating Lyrics requires Android 8.0 or later</string>
+    <string name="system_overlay_untitled">Untitled</string>
+    <string name="system_overlay_playing">Playing…</string>
+    <string name="system_import_too_large">The file exceeds the 4 MB limit.</string>
+    <string name="system_import_empty">The file contains no text.</string>
+    <string name="system_import_encoding">Use a UTF-8 or UTF-16 text file.</string>
+    <string name="system_offset_back">-0.5 s</string>
+    <string name="system_offset_forward">+0.5 s</string>
+</resources>

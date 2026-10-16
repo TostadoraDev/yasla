@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lyrics_widget_description">Synchronized lyrics from your active music player</string>
+    <string name="lyrics_widget_empty">Open YASLA and play a song</string>
+    <string name="lyrics_widget_unknown_title">No playback</string>
+    <string name="lyrics_widget_previous">Previous</string>
+    <string name="lyrics_widget_play_pause">Play or pause</string>
+    <string name="lyrics_widget_next">Next</string>
+    <string name="widget_state_searching">Finding lyrics…</string>
+    <string name="widget_state_unavailable">Lyrics unavailable</string>
+    <string name="widget_state_error">Could not load lyrics. Tap to retry in YASLA.</string>
+    <string name="widget_idle_image_description">Image shown when there is no playback</string>
+    <string name="widget_idle_image_title">Image when there is no playback</string>
+    <string name="widget_idle_image_detail">Stored on your phone. Replaced by lyrics when playback starts.</string>
+    <string name="widget_choose_image">Choose from gallery</string>
+    <string name="widget_default_image">Use YASLA image</string>
+    <string name="widget_remove_image">Remove custom image</string>
+    <string name="widget_image_cover">Cover</string>
+    <string name="widget_image_fit">Fit</string>
+    <string name="widget_image_import_failed">Could not read this image. Try another one.</string>
+    <string name="widget_image_picker_unavailable">No photo picker is available.</string>
+    <string name="widget_preview_live">Live playback</string>
+    <string name="widget_preview_idle">No playback</string>
+    <color name="widget_white">#FFFFFFFF</color>
+    <color name="widget_transparent_secondary">#FFD7D7D7</color>
+    <color name="widget_accent">#FFFF846F</color>
+    <color name="widget_primary_text">#FFFFF7EF</color>
+    <color name="widget_secondary_text">#FFB7B8BC</color>
+    <color name="widget_muted_text">#FF777A81</color>
+    <color name="widget_translation_text">#FFFFB6A8</color>
+    <string name="widget_now_playing">NOW PLAYING</string>
+    <string name="widget_paused">PAUSED</string>
+</resources>

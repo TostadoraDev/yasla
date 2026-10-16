@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ux_settings_playback">Playback</string>
+    <string name="ux_settings_language">Language</string>
+    <string name="ux_settings_about">About</string>
+    <string name="ux_settings_karaoke_appearance">Lyrics appearance</string>
+    <string name="ux_settings_karaoke_appearance_detail">Highlight, pending text, and custom colors</string>
+    <string name="ux_settings_show">Show</string>
+    <string name="ux_settings_hide">Hide</string>
+    <string name="ux_settings_version">Version</string>
+    <string name="ux_settings_github">GitHub</string>
+    <string name="ux_settings_github_detail">Source code, issues, and project documentation</string>
+    <string name="ux_settings_license">License</string>
+    <string name="ux_settings_license_detail">YASLA original code is licensed under GPL-3.0; upstream obligations are documented in the repository.</string>
+    <string name="ux_settings_credits">Credits</string>
+    <string name="ux_settings_credits_detail">Kotlin, AndroidX, Jetpack Compose, Room, DataStore, Glance, Palette, Coroutines, LRCLIB, and AMLL as a motion reference.</string>
+    <string name="ux_settings_cancel">Cancel</string>
+</resources>

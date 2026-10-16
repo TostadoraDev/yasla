@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ux_lyrics_size_title">Tamaño de letras</string>
+    <string name="ux_lyrics_size_detail">Cambia sólo las letras de Sonando.</string>
+    <string name="ux_lyrics_size_preview">Canta cada línea a tu manera</string>
+    <string name="ux_lyrics_size_small">Pequeño</string>
+    <string name="ux_lyrics_size_default">Predeterminado</string>
+    <string name="ux_lyrics_size_large">Grande</string>
+    <string name="ux_lyrics_size_extra_large">Extra grande</string>
+</resources>

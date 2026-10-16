@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.Yetasimplelyicsapp" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">#FF765F</item>
+    </style>
+
+    <style name="Theme.Yetasimplelyicsapp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#111315</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">180</item>
+        <item name="postSplashScreenTheme">@style/Theme.Yetasimplelyicsapp</item>
+    </style>
+</resources>

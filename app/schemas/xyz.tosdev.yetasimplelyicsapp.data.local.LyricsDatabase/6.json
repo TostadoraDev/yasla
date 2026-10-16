@@ -1,0 +1,537 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 6,
+    "identityHash": "e57672146d6a44345f31dac01ff74b3a",
+    "entities": [
+      {
+        "tableName": "lyrics_documents",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`documentId` TEXT NOT NULL, `trackKey` TEXT NOT NULL, `providerId` TEXT NOT NULL, `remoteId` TEXT, `attribution` TEXT, `contentRights` TEXT, `syncType` TEXT NOT NULL, `languageTag` TEXT, `capabilities` TEXT NOT NULL, `schemaVersion` INTEGER NOT NULL, `cachedAtEpochMs` INTEGER NOT NULL, `expiresAtEpochMs` INTEGER NOT NULL, `title` TEXT, `artists` TEXT NOT NULL, `album` TEXT, `durationMs` INTEGER, `artworkUri` TEXT, `isPinned` INTEGER NOT NULL, `lastAccessedAtEpochMs` INTEGER NOT NULL, PRIMARY KEY(`documentId`))",
+        "fields": [
+          {
+            "fieldPath": "documentId",
+            "columnName": "documentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "trackKey",
+            "columnName": "trackKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "providerId",
+            "columnName": "providerId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "attribution",
+            "columnName": "attribution",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "contentRights",
+            "columnName": "contentRights",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "syncType",
+            "columnName": "syncType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "languageTag",
+            "columnName": "languageTag",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "capabilities",
+            "columnName": "capabilities",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "schemaVersion",
+            "columnName": "schemaVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cachedAtEpochMs",
+            "columnName": "cachedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiresAtEpochMs",
+            "columnName": "expiresAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "artists",
+            "columnName": "artists",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "album",
+            "columnName": "album",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "durationMs",
+            "columnName": "durationMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "artworkUri",
+            "columnName": "artworkUri",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isPinned",
+            "columnName": "isPinned",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastAccessedAtEpochMs",
+            "columnName": "lastAccessedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "documentId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_lyrics_documents_trackKey",
+            "unique": true,
+            "columnNames": [
+              "trackKey"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_lyrics_documents_trackKey` ON `${TABLE_NAME}` (`trackKey`)"
+          },
+          {
+            "name": "index_lyrics_documents_expiresAtEpochMs",
+            "unique": false,
+            "columnNames": [
+              "expiresAtEpochMs"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_documents_expiresAtEpochMs` ON `${TABLE_NAME}` (`expiresAtEpochMs`)"
+          },
+          {
+            "name": "index_lyrics_documents_isPinned",
+            "unique": false,
+            "columnNames": [
+              "isPinned"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_documents_isPinned` ON `${TABLE_NAME}` (`isPinned`)"
+          },
+          {
+            "name": "index_lyrics_documents_lastAccessedAtEpochMs",
+            "unique": false,
+            "columnNames": [
+              "lastAccessedAtEpochMs"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_documents_lastAccessedAtEpochMs` ON `${TABLE_NAME}` (`lastAccessedAtEpochMs`)"
+          }
+        ]
+      },
+      {
+        "tableName": "lyrics_lines",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`documentId` TEXT NOT NULL, `lineId` TEXT NOT NULL, `position` INTEGER NOT NULL, `originalText` TEXT NOT NULL, `startTimeMs` INTEGER, `endTimeMs` INTEGER, `agentId` TEXT, `groupId` TEXT, `alignment` TEXT NOT NULL DEFAULT 'AUTO', `role` TEXT, `region` TEXT, `textDirection` TEXT NOT NULL DEFAULT 'AUTO', `timingQuality` TEXT NOT NULL, `isBackground` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`documentId`, `lineId`), FOREIGN KEY(`documentId`) REFERENCES `lyrics_documents`(`documentId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "documentId",
+            "columnName": "documentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lineId",
+            "columnName": "lineId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "position",
+            "columnName": "position",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originalText",
+            "columnName": "originalText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTimeMs",
+            "columnName": "startTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "endTimeMs",
+            "columnName": "endTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "agentId",
+            "columnName": "agentId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "alignment",
+            "columnName": "alignment",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'AUTO'"
+          },
+          {
+            "fieldPath": "role",
+            "columnName": "role",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "region",
+            "columnName": "region",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "textDirection",
+            "columnName": "textDirection",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'AUTO'"
+          },
+          {
+            "fieldPath": "timingQuality",
+            "columnName": "timingQuality",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isBackground",
+            "columnName": "isBackground",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "documentId",
+            "lineId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_lyrics_lines_documentId",
+            "unique": false,
+            "columnNames": [
+              "documentId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_lines_documentId` ON `${TABLE_NAME}` (`documentId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "lyrics_documents",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "documentId"
+            ],
+            "referencedColumns": [
+              "documentId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "lyrics_words",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`documentId` TEXT NOT NULL, `lineId` TEXT NOT NULL, `wordId` TEXT NOT NULL, `position` INTEGER NOT NULL, `text` TEXT NOT NULL, `startTimeMs` INTEGER, `endTimeMs` INTEGER, `timingQuality` TEXT NOT NULL, PRIMARY KEY(`documentId`, `lineId`, `wordId`), FOREIGN KEY(`documentId`, `lineId`) REFERENCES `lyrics_lines`(`documentId`, `lineId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "documentId",
+            "columnName": "documentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lineId",
+            "columnName": "lineId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wordId",
+            "columnName": "wordId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "position",
+            "columnName": "position",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTimeMs",
+            "columnName": "startTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "endTimeMs",
+            "columnName": "endTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "timingQuality",
+            "columnName": "timingQuality",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "documentId",
+            "lineId",
+            "wordId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_lyrics_words_documentId_lineId",
+            "unique": false,
+            "columnNames": [
+              "documentId",
+              "lineId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_words_documentId_lineId` ON `${TABLE_NAME}` (`documentId`, `lineId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "lyrics_lines",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "documentId",
+              "lineId"
+            ],
+            "referencedColumns": [
+              "documentId",
+              "lineId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "lyrics_word_segments",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`documentId` TEXT NOT NULL, `lineId` TEXT NOT NULL, `wordId` TEXT NOT NULL, `position` INTEGER NOT NULL, `text` TEXT NOT NULL, `startTimeMs` INTEGER, `endTimeMs` INTEGER, `timingQuality` TEXT NOT NULL, PRIMARY KEY(`documentId`, `lineId`, `wordId`, `position`), FOREIGN KEY(`documentId`, `lineId`, `wordId`) REFERENCES `lyrics_words`(`documentId`, `lineId`, `wordId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "documentId",
+            "columnName": "documentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lineId",
+            "columnName": "lineId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wordId",
+            "columnName": "wordId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "position",
+            "columnName": "position",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTimeMs",
+            "columnName": "startTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "endTimeMs",
+            "columnName": "endTimeMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "timingQuality",
+            "columnName": "timingQuality",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "documentId",
+            "lineId",
+            "wordId",
+            "position"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_lyrics_word_segments_documentId_lineId_wordId",
+            "unique": false,
+            "columnNames": [
+              "documentId",
+              "lineId",
+              "wordId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_word_segments_documentId_lineId_wordId` ON `${TABLE_NAME}` (`documentId`, `lineId`, `wordId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "lyrics_words",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "documentId",
+              "lineId",
+              "wordId"
+            ],
+            "referencedColumns": [
+              "documentId",
+              "lineId",
+              "wordId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "lyrics_text_variants",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`documentId` TEXT NOT NULL, `lineId` TEXT NOT NULL, `kind` TEXT NOT NULL, `languageTag` TEXT NOT NULL, `text` TEXT NOT NULL, PRIMARY KEY(`documentId`, `lineId`, `kind`, `languageTag`), FOREIGN KEY(`documentId`, `lineId`) REFERENCES `lyrics_lines`(`documentId`, `lineId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "documentId",
+            "columnName": "documentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lineId",
+            "columnName": "lineId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kind",
+            "columnName": "kind",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "languageTag",
+            "columnName": "languageTag",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "documentId",
+            "lineId",
+            "kind",
+            "languageTag"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_lyrics_text_variants_documentId_lineId",
+            "unique": false,
+            "columnNames": [
+              "documentId",
+              "lineId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_lyrics_text_variants_documentId_lineId` ON `${TABLE_NAME}` (`documentId`, `lineId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "lyrics_lines",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "documentId",
+              "lineId"
+            ],
+            "referencedColumns": [
+              "documentId",
+              "lineId"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e57672146d6a44345f31dac01ff74b3a')"
+    ]
+  }
+}

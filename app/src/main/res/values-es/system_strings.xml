@@ -1,0 +1,60 @@
+<resources>
+    <string name="system_notifications_disabled">Las notificaciones siguen desactivadas.</string>
+    <string name="system_file_picker_unavailable">No hay un selector de archivos disponible.</string>
+    <string name="system_export_lrc">Exportar LRC</string>
+    <string name="system_export_ttml">Exportar TTML</string>
+
+    <string name="system_imported_lyrics">Letra importada</string>
+    <string name="system_imported_offline">Importada · sin conexión</string>
+    <string name="system_saved_provider">Guardada · %1$s</string>
+    <string name="system_track_unidentified">No pudimos identificar esta canción.</string>
+    <string name="system_lyrics_rate_limited">El servicio de letras está temporalmente limitado.</string>
+    <string name="system_lyrics_unavailable">El servicio de letras no está disponible temporalmente.</string>
+    <string name="system_lyrics_failed">No se pudieron cargar las letras.</string>
+    <string name="system_lyrics_timeout">La búsqueda de letras tardó demasiado.</string>
+    <string name="system_media_permission_required">Activa el acceso a notificaciones</string>
+    <string name="system_media_connecting">Conectando con Android</string>
+    <string name="system_media_no_session">Abre tu reproductor de música</string>
+    <string name="system_import_limit">Selecciona un máximo de 20 archivos por importación.</string>
+    <string name="system_default_import_filename">letra.ttml</string>
+    <string name="system_file_open_failed">No se pudo abrir el archivo.</string>
+    <string name="system_import_failed">No se pudo importar: %1$s</string>
+    <string name="system_invalid_file">archivo no válido</string>
+    <string name="system_saved_for_track">Letra guardada para %1$s</string>
+    <plurals name="system_saved_to_library">
+        <item quantity="one">%1$d letra guardada en la biblioteca.</item>
+        <item quantity="many">%1$d letras guardadas en la biblioteca.</item>
+        <item quantity="other">%1$d letras guardadas en la biblioteca.</item>
+    </plurals>
+    <string name="system_supported_file_required">Selecciona un archivo TTML, XML, LRC o TXT.</string>
+    <string name="system_import_saved_offline">Letra importada y guardada sin conexión</string>
+    <string name="system_import_lyrics_failed">No se pudo importar la letra</string>
+    <string name="system_lyrics_saved">Letra guardada</string>
+    <string name="system_save_failed">No se pudo guardar</string>
+    <string name="system_searching">Buscando…</string>
+    <string name="system_open_lyrics_failed">No se pudo abrir la letra</string>
+
+    <string name="system_notification_synced_lyrics">Letra sincronizada</string>
+    <string name="system_notification_waiting_line">Esperando la siguiente línea</string>
+    <string name="system_action_previous">Anterior</string>
+    <string name="system_action_pause">Pausar</string>
+    <string name="system_action_play">Reproducir</string>
+    <string name="system_action_next">Siguiente</string>
+    <string name="system_action_overlay">Overlay</string>
+    <string name="system_action_lock">Bloquear</string>
+    <string name="system_floating_lyrics_active">Letras flotantes activas</string>
+    <string name="system_tap_to_return">Toca para volver a YASLA</string>
+    <string name="system_channel_current_lyrics">Letra actual</string>
+    <string name="system_channel_current_lyrics_description">Muestra la línea actual, la siguiente y los controles compatibles del reproductor.</string>
+    <string name="system_channel_floating_lyrics">Letras flotantes</string>
+    <string name="system_channel_floating_lyrics_description">Mantiene visible el servicio de letras flotantes.</string>
+
+    <string name="system_overlay_android_version">Las letras flotantes requieren Android 8.0 o posterior</string>
+    <string name="system_overlay_untitled">Sin título</string>
+    <string name="system_overlay_playing">Reproduciendo…</string>
+    <string name="system_import_too_large">El archivo supera el límite de 4 MB.</string>
+    <string name="system_import_empty">El archivo no contiene texto.</string>
+    <string name="system_import_encoding">Usa un archivo de texto UTF-8 o UTF-16.</string>
+    <string name="system_offset_back">-0,5 s</string>
+    <string name="system_offset_forward">+0,5 s</string>
+</resources>

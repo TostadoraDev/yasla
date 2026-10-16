@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ux_lyrics_size_title">Lyrics size</string>
+    <string name="ux_lyrics_size_detail">Changes lyrics in Now Playing only.</string>
+    <string name="ux_lyrics_size_preview">Sing every line your way</string>
+    <string name="ux_lyrics_size_small">Small</string>
+    <string name="ux_lyrics_size_default">Default</string>
+    <string name="ux_lyrics_size_large">Large</string>
+    <string name="ux_lyrics_size_extra_large">Extra large</string>
+</resources>

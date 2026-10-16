@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lyrics_widget_description">Letras sincronizadas del reproductor activo</string>
+    <string name="lyrics_widget_empty">Abre YASLA y reproduce una canción</string>
+    <string name="lyrics_widget_unknown_title">Sin reproducción</string>
+    <string name="lyrics_widget_previous">Anterior</string>
+    <string name="lyrics_widget_play_pause">Reproducir o pausar</string>
+    <string name="lyrics_widget_next">Siguiente</string>
+    <string name="widget_state_searching">Buscando letras…</string>
+    <string name="widget_state_unavailable">Letra no disponible</string>
+    <string name="widget_state_error">No se pudo cargar la letra. Toca para reintentar en YASLA.</string>
+    <string name="widget_idle_image_description">Imagen cuando no hay reproducción</string>
+    <string name="widget_idle_image_title">Imagen cuando no hay reproducción</string>
+    <string name="widget_idle_image_detail">Se guarda en tu teléfono. Las letras la sustituyen al comenzar una reproducción.</string>
+    <string name="widget_choose_image">Elegir desde la galería</string>
+    <string name="widget_default_image">Usar imagen de YASLA</string>
+    <string name="widget_remove_image">Eliminar imagen personalizada</string>
+    <string name="widget_image_cover">Cubrir</string>
+    <string name="widget_image_fit">Ajustar</string>
+    <string name="widget_image_import_failed">No se pudo leer esta imagen. Prueba con otra.</string>
+    <string name="widget_image_picker_unavailable">No hay selector de fotos disponible.</string>
+    <string name="widget_preview_live">Reproducción real</string>
+    <string name="widget_preview_idle">Sin reproducción</string>
+    <string name="widget_now_playing">SONANDO</string>
+    <string name="widget_paused">EN PAUSA</string>
+</resources>

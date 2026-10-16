@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:amll="http://www.example.com/ns/amll" itunes:timing="Word" xml:lang="es">
+<head><metadata><ttm:agent xml:id="v1" type="person"/><ttm:agent xml:id="v2" type="person"/><amll:meta key="musicName" value="Prueba AMLL"/></metadata></head>
+<body dur="00:40.000"><div begin="00:20.000" end="00:40.000">
+<p begin="00:24.000" end="00:29.000" itunes:key="L1" ttm:agent="v1"><span begin="00:24.000" end="00:26.000">Sigue</span> <span begin="26.000" end="29.000">aquí</span><span ttm:role="x-translation" xml:lang="en">Stay here</span><span ttm:role="x-roman" xml:lang="es-Latn">Sigue aquí</span><span ttm:role="x-bg" begin="00:27.000" end="00:28.000"><span begin="00:27.000" end="00:28.000">(aquí)</span><span ttm:role="x-translation" xml:lang="en">here</span></span></p>
+<p begin="00:30.000" end="00:32.000" itunes:key="L2" ttm:agent="v2"><span begin="00:30.000" end="00:31.000">Con</span> <span begin="00:31.000" end="00:32.000">voz</span></p>
+</div></body></tt>

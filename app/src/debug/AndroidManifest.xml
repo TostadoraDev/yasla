@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.Widgets2HostActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.RefinementPreviewActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.AmllMotionTestActivity"
+            android:exported="false"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.AmbientBackgroundTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.KaraokeRendererTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name="xyz.tosdev.yetasimplelyicsapp.KeepScreenOnTestActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+    </application>
+</manifest>

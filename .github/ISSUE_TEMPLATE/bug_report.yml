@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible YASLA issue with sanitized details.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For security issues, use the private channel described in SECURITY.md. Do not include tokens, private account data or copyrighted media."
+  - type: input
+    id: build
+    attributes:
+      label: Build and device
+      description: YASLA build, Android version, device/launcher and music player.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include lyric sync mode, motion setting and widget size when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Screenshots, video, minimal synthetic lyrics or short logs. Remove private details.
